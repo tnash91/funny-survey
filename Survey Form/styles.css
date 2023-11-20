@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;  
+  }
+  
+  label {
+    display: block;
+    margin: 5;
+  }
+  
+  input[type="checkbox"]{
+    display: inline-block;
+    margin: 5;
+  }

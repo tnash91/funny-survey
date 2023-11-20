@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+        <h1 id="title">How Will You Mess With Mom and Dad's Mental Health?</h1>
+      <p id="description">Please fill out the form to choose intended mishaps of the day</p>
+  <form id="survey-form">
+  <fieldset>  
+      <label for="name" id="name-label">What is your name?</label>
+      <input id="name" type="text" name="name"  placeholder="John Jacob" required></input>
+      <label for="email" id="email-label">What is your kideEmail? </label>
+      <input id="email" type="email" name="email" placeholder="imameanbaby@wahwah.com" required></input>
+      <label for="age" id="number-label">What is your age? </label>
+      <input id="number" type="number" name="age" placeholder="Age" min="1" max="10"></input>
+    </fieldset>
+    <fieldset>
+      <label for="option">How bad do you want to ruin your parents day?</label>
+      <label for="not-at-all"></label>
+      <input id="not-at-all" type="radio" name="option" class="inline" value="not-at-all">Not at all</input>
+      <label for="somewhat"></label>
+      <input id="somewhat" type="radio" name="option" class="inline" value="somewhat">Somewhat</input>
+      <label for="completely"></label>
+      <input id="completely" type="radio" name="option" class="inline" value="completely">Completely</input>
+    </fieldset>
+    <fieldset>
+      <label for="fav-mbd">What parental mental breakdown are you going for?
+        <select id="dropdown" name="fav-mbd">
+          <option value="1">Tears</option>
+          <option value="2">Exhaustion</option>
+          <option value="3">Frusration</option>
+          <option value="4">Need Time Alone</option>
+          <option value="5">Other</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="fav-mishap">What shenanigans do you intend to use?
+        <input id="fav-mishap" type='checkbox' value="poopy-diaper">Poopy diaper</input>
+        <input id="fav-mishap" type="checkbox" value="not-sleeping">Not sleeping</input>
+        <input id="fav-mishap" type="checkbox" value="total-meltdown">Total meltdown</input>
+        <input id="fav-mishap" type="checkbox" value="waking-up">Waking up in the middle of the night</input>
+        <input id="fav-mishap" type="checkbox" value="messy-eater">Getting food everywhere but your mouth</input>
+        
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="memory">Tell us about your favorite parental meltdown:
+          <textarea id="memory" name="memory" rows="5" cols="40" placeholder="my favorite parental breakdown was..."></textarea>
+    </fieldset>
+    <input id="submit" type="submit" value="submit" />
+    </form>
+  </body>
+
+</html>
